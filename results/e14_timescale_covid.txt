@@ -1,0 +1,48 @@
+[  851.5s] state full: n_train=8568
+[  986.7s] state 1mo val: n_train=720
+[ 1165.3s] state 1mo win: n_train=576
+
+=== covid: full year vs one month (1mo val) ===
+   FREE    hour: AUROC=0.37 BA(rule)=0.24 | flagged out=0.00 (predicted 0.01, kappa*a=52.6; truth 0.74) full=0.67 (truth 0.00)
+   FREE     day: AUROC=0.35 BA(rule)=0.18 | flagged out=0.00 (predicted 0.00, kappa*a=52.6; truth 0.97) full=0.67 (truth 0.00)
+   FREE    week: AUROC=0.33 BA(rule)=0.17 | flagged out=0.00 (predicted 0.00, kappa*a=52.6; truth 1.00) full=0.67 (truth 0.00)
+   FREE 30 days: AUROC=0.33 BA(rule)=0.17 | flagged out=0.00 (predicted 0.00, kappa*a=52.6; truth 1.00) full=0.67 (truth 0.00)
+     MC    hour: AUROC=0.12 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=818.3; truth 0.74) full=0.00 (truth 0.01)
+     MC     day: AUROC=0.01 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=818.3; truth 0.97) full=0.00 (truth 0.00)
+     MC    week: AUROC=0.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=818.3; truth 1.00) full=0.00 (truth 0.00)
+     MC 30 days: AUROC=0.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=818.3; truth 1.00) full=0.00 (truth 0.00)
+    ENS    hour: AUROC=0.41 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=663.0; truth 0.76) full=0.00 (truth 0.00)
+    ENS     day: AUROC=0.23 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=663.0; truth 0.97) full=0.00 (truth 0.00)
+    ENS    week: AUROC=0.09 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=663.0; truth 1.00) full=0.00 (truth 0.00)
+    ENS 30 days: AUROC=0.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=663.0; truth 1.00) full=0.00 (truth 0.00)
+   LA-1    hour: AUROC=0.89 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=150.8; truth 0.73) full=0.00 (truth 0.00)
+   LA-1     day: AUROC=0.98 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=150.8; truth 0.96) full=0.00 (truth 0.00)
+   LA-1    week: AUROC=1.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=150.8; truth 1.00) full=0.00 (truth 0.00)
+   LA-1 30 days: AUROC=1.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=150.8; truth 1.00) full=0.00 (truth 0.00)
+   LA-2    hour: AUROC=0.89 BA(rule)=0.62 | flagged out=0.33 (predicted 0.28, kappa*a=8.5; truth 0.73) full=0.00 (truth 0.00)
+   LA-2     day: AUROC=0.98 BA(rule)=0.64 | flagged out=0.33 (predicted 0.34, kappa*a=8.5; truth 0.96) full=0.00 (truth 0.00)
+   LA-2    week: AUROC=1.00 BA(rule)=0.66 | flagged out=0.31 (predicted 0.26, kappa*a=8.5; truth 1.00) full=0.00 (truth 0.00)
+   LA-2 30 days: AUROC=1.00 BA(rule)=0.67 | flagged out=0.33 (predicted 0.19, kappa*a=8.5; truth 1.00) full=0.00 (truth 0.00)
+
+=== covid: full year vs one month (1mo win) ===
+   FREE    hour: AUROC=0.33 BA(rule)=0.20 | flagged out=0.00 (predicted 0.00, kappa*a=108.0; truth 0.83) full=0.67 (truth 0.00)
+   FREE     day: AUROC=0.32 BA(rule)=0.18 | flagged out=0.00 (predicted 0.00, kappa*a=108.0; truth 0.95) full=0.67 (truth 0.00)
+   FREE    week: AUROC=0.33 BA(rule)=0.17 | flagged out=0.00 (predicted 0.00, kappa*a=108.0; truth 1.00) full=0.67 (truth 0.00)
+   FREE 30 days: AUROC=0.33 BA(rule)=0.17 | flagged out=0.00 (predicted 0.00, kappa*a=108.0; truth 1.00) full=0.67 (truth 0.00)
+     MC    hour: AUROC=0.49 BA(rule)=0.50 | flagged out=0.00 (predicted 0.01, kappa*a=126.8; truth 0.82) full=0.00 (truth 0.01)
+     MC     day: AUROC=0.42 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=126.8; truth 0.95) full=0.00 (truth 0.00)
+     MC    week: AUROC=0.43 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=126.8; truth 1.00) full=0.00 (truth 0.00)
+     MC 30 days: AUROC=0.38 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=126.8; truth 1.00) full=0.00 (truth 0.00)
+    ENS    hour: AUROC=0.98 BA(rule)=0.54 | flagged out=0.08 (predicted 0.20, kappa*a=38.2; truth 0.96) full=0.00 (truth 0.00)
+    ENS     day: AUROC=0.99 BA(rule)=0.53 | flagged out=0.06 (predicted 0.21, kappa*a=38.2; truth 0.98) full=0.00 (truth 0.00)
+    ENS    week: AUROC=1.00 BA(rule)=0.52 | flagged out=0.03 (predicted 0.03, kappa*a=38.2; truth 1.00) full=0.00 (truth 0.00)
+    ENS 30 days: AUROC=1.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=38.2; truth 1.00) full=0.00 (truth 0.00)
+   LA-1    hour: AUROC=0.96 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=174.6; truth 0.90) full=0.00 (truth 0.00)
+   LA-1     day: AUROC=0.99 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=174.6; truth 0.96) full=0.00 (truth 0.00)
+   LA-1    week: AUROC=1.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=174.6; truth 1.00) full=0.00 (truth 0.00)
+   LA-1 30 days: AUROC=1.00 BA(rule)=0.50 | flagged out=0.00 (predicted 0.00, kappa*a=174.6; truth 1.00) full=0.00 (truth 0.00)
+   LA-2    hour: AUROC=0.96 BA(rule)=0.95 | flagged out=0.99 (predicted 0.71, kappa*a=8.1; truth 0.90) full=0.00 (truth 0.00)
+   LA-2     day: AUROC=0.98 BA(rule)=0.98 | flagged out=0.99 (predicted 0.86, kappa*a=8.1; truth 0.96) full=0.00 (truth 0.00)
+   LA-2    week: AUROC=1.00 BA(rule)=1.00 | flagged out=1.00 (predicted 0.98, kappa*a=8.1; truth 1.00) full=0.00 (truth 0.00)
+   LA-2 30 days: AUROC=1.00 BA(rule)=1.00 | flagged out=1.00 (predicted 1.00, kappa*a=8.1; truth 1.00) full=0.00 (truth 0.00)
+DONE

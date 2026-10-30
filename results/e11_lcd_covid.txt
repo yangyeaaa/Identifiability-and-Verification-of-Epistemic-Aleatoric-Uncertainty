@@ -1,0 +1,21 @@
+
+=== uniform 5% (N=428, K=5, held-out MSE by n/N: 0.1:14829386184, 0.201:13565299397, 0.4:10524923768, 0.402:9351513142, 0.799:6951625827, 0.801:4807593623; alpha=1.08) ===
+  LCD   : true R=0.87 reported=0.229 ratio=   5.97 cov90(f*)=0.40 rho=+0.12 | ale ratio= 3.90 ale rho=+0.04 | base=0.77 recall=0.00 BA=0.50 | cov90(y)=0.801 RMSE=73788.3
+  HO-var: ale ratio (held-out variance, no curve)= 4.26 cov90(y)=0.777
+
+=== recent 1 month (window stop) (N=576, K=4, held-out MSE by n/N: 0.094:9446136838, 0.188:10621249519, 0.375:8622473240, 0.75:8955522553; alpha=1.07) ===
+  LCD   : true R=0.95 reported=0.001 ratio= 188.83 cov90(f*)=0.01 rho=+0.39 | ale ratio=91.33 ale rho=+0.11 | base=0.90 recall=0.00 BA=0.50 | cov90(y)=0.896 RMSE=136088.4
+  HO-var: ale ratio (held-out variance, no curve)= 0.71 cov90(y)=0.124
+
+=== recent 1 month (val. year stop) (N=720, K=4, held-out MSE by n/N: 0.094:13097411056, 0.188:13347618991, 0.375:12451322438, 0.75:11255747850; alpha=1.07) ===
+  LCD   : true R=0.87 reported=0.003 ratio=5009.81 cov90(f*)=0.00 rho=+0.22 | ale ratio= 0.52 ale rho=+0.24 | base=0.73 recall=0.00 BA=0.50 | cov90(y)=0.169 RMSE=73088.8
+  HO-var: ale ratio (held-out variance, no curve)= 6.89 cov90(y)=0.829
+
+=== uniform 25% (N=2142, K=5, held-out MSE by n/N: 0.1:8326964570, 0.2:5171642364, 0.4:2887322327, 0.8:2262721847; alpha=1.07) ===
+  LCD   : true R=0.18 reported=0.369 ratio=   0.47 cov90(f*)=0.95 rho=+0.01 | ale ratio= 0.80 ale rho=+0.58 | base=0.05 recall=0.18 BA=0.49 | cov90(y)=0.894 RMSE=13144.5
+  HO-var: ale ratio (held-out variance, no curve)= 1.01 cov90(y)=0.864
+
+=== uniform 100% (N=8568, K=5, held-out MSE by n/N: 0.1:2956528028, 0.2:2318512014, 0.4:2055021363, 0.8:2018823682; alpha=1.06) ===
+  LCD   : true R=0.06 reported=0.065 ratio=   0.87 cov90(f*)=0.83 rho=+0.04 | ale ratio= 0.97 ale rho=+0.80 | base=0.00 recall=0.00 BA=0.50 | cov90(y)=0.890 RMSE=6793.9
+  HO-var: ale ratio (held-out variance, no curve)= 1.01 cov90(y)=0.880
+DONE

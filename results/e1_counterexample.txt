@@ -1,0 +1,4 @@
+         default: R_epi=0.976 sigma_tot(norm)=0.1697 | MAE=86.10 MAPE=2.588 CRPS=62.33 ECE=0.038 PICP90=0.852
+         swapped: R_epi=0.043 sigma_tot(norm)=0.1703 | MAE=85.49 MAPE=2.587 CRPS=61.73 ECE=0.031 PICP90=0.865
+ epistemic-heavy: R_epi=0.154 sigma_tot(norm)=0.1666 | MAE=85.85 MAPE=2.569 CRPS=62.58 ECE=0.034 PICP90=0.851
+DONE

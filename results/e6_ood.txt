@@ -1,0 +1,31 @@
+
+=== recent 1 month (n_train=720, test inputs outside training temperature range: 78.1%) ===
+     MC: R_epi=0.011 epi=   52.7 ale=  511.4 MAE= 413.5 | PICP90 tot=0.920 ale-only=0.918 | out-of-support: epi out/in=0.97 ale out/in=1.02 rho(epi,excess)=+0.02 PICP90 tot/ale=0.919/0.917
+   LA-1: R_epi=0.035 epi=   94.4 ale=  514.5 MAE= 420.4 | PICP90 tot=0.919 ale-only=0.913 | out-of-support: epi out/in=1.05 ale out/in=1.02 rho(epi,excess)=-0.03 PICP90 tot/ale=0.920/0.914
+   LA-2: R_epi=0.329 epi=  375.4 ale=  514.5 MAE= 420.4 | PICP90 tot=0.972 ale-only=0.913 | out-of-support: epi out/in=1.10 ale out/in=1.02 rho(epi,excess)=+0.02 PICP90 tot/ale=0.973/0.914
+    ENS: R_epi=0.045 epi=  108.1 ale=  515.7 MAE= 419.1 | PICP90 tot=0.931 ale-only=0.923 | out-of-support: epi out/in=1.00 ale out/in=1.02 rho(epi,excess)=+0.06 PICP90 tot/ale=0.929/0.920
+
+=== recent 2 months (n_train=1440, test inputs outside training temperature range: 53.0%) ===
+     MC: R_epi=0.013 epi=   54.0 ale=  490.5 MAE= 399.0 | PICP90 tot=0.904 ale-only=0.902 | out-of-support: epi out/in=0.99 ale out/in=1.01 rho(epi,excess)=+0.13 PICP90 tot/ale=0.873/0.871
+   LA-1: R_epi=0.018 epi=   64.4 ale=  490.1 MAE= 405.8 | PICP90 tot=0.897 ale-only=0.893 | out-of-support: epi out/in=1.06 ale out/in=1.01 rho(epi,excess)=+0.04 PICP90 tot/ale=0.866/0.862
+   LA-2: R_epi=0.180 epi=  225.4 ale=  490.1 MAE= 405.8 | PICP90 tot=0.939 ale-only=0.893 | out-of-support: epi out/in=1.12 ale out/in=1.01 rho(epi,excess)=+0.07 PICP90 tot/ale=0.912/0.862
+    ENS: R_epi=0.023 epi=   65.0 ale=  483.3 MAE= 414.9 | PICP90 tot=0.884 ale-only=0.879 | out-of-support: epi out/in=1.01 ale out/in=1.02 rho(epi,excess)=+0.23 PICP90 tot/ale=0.843/0.838
+
+=== recent 3 months (n_train=2160, test inputs outside training temperature range: 38.8%) ===
+     MC: R_epi=0.025 epi=   71.8 ale=  461.0 MAE= 435.0 | PICP90 tot=0.833 ale-only=0.828 | out-of-support: epi out/in=1.00 ale out/in=1.03 rho(epi,excess)=+0.14 PICP90 tot/ale=0.732/0.727
+   LA-1: R_epi=0.012 epi=   48.8 ale=  458.2 MAE= 450.1 | PICP90 tot=0.811 ale-only=0.808 | out-of-support: epi out/in=1.13 ale out/in=1.03 rho(epi,excess)=+0.16 PICP90 tot/ale=0.709/0.706
+   LA-2: R_epi=0.101 epi=  148.5 ale=  458.2 MAE= 450.1 | PICP90 tot=0.840 ale-only=0.808 | out-of-support: epi out/in=1.24 ale out/in=1.03 rho(epi,excess)=+0.18 PICP90 tot/ale=0.742/0.706
+    ENS: R_epi=0.029 epi=   69.1 ale=  442.6 MAE= 464.3 | PICP90 tot=0.788 ale-only=0.784 | out-of-support: epi out/in=1.06 ale out/in=1.03 rho(epi,excess)=+0.13 PICP90 tot/ale=0.675/0.671
+
+=== full year (n_train=8592, test inputs outside training temperature range: 0.7%) ===
+     MC: R_epi=0.219 epi=   64.2 ale=  122.2 MAE=  85.8 | PICP90 tot=0.955 ale-only=0.931 | out-of-support: epi out/in=1.29 ale out/in=0.92 rho(epi,excess)=-0.58 PICP90 tot/ale=0.847/0.709
+   LA-1: R_epi=0.005 epi=    7.5 ale=  106.1 MAE=  86.3 | PICP90 tot=0.892 ale-only=0.891 | out-of-support: epi out/in=1.44 ale out/in=0.89 rho(epi,excess)=-0.53 PICP90 tot/ale=0.704/0.698
+   LA-2: R_epi=0.033 epi=   18.7 ale=  106.1 MAE=  86.3 | PICP90 tot=0.897 ale-only=0.891 | out-of-support: epi out/in=1.78 ale out/in=0.89 rho(epi,excess)=-0.47 PICP90 tot/ale=0.714/0.698
+    ENS: R_epi=0.082 epi=   29.0 ale=  102.9 MAE=  83.0 | PICP90 tot=0.912 ale-only=0.897 | out-of-support: epi out/in=1.43 ale out/in=0.90 rho(epi,excess)=-0.43 PICP90 tot/ale=0.794/0.746
+
+=== temperature hold-out (n_train=5987, test inputs outside training temperature range: 38.1%) ===
+     MC: R_epi=0.234 epi=   67.0 ale=  122.0 MAE=  93.7 | PICP90 tot=0.939 ale-only=0.907 | out-of-support: epi out/in=1.44 ale out/in=1.19 rho(epi,excess)=+0.00 PICP90 tot/ale=0.916/0.865
+   LA-1: R_epi=0.008 epi=    9.1 ale=  105.1 MAE=  89.5 | PICP90 tot=0.873 ale-only=0.871 | out-of-support: epi out/in=1.47 ale out/in=1.18 rho(epi,excess)=+0.09 PICP90 tot/ale=0.842/0.839
+   LA-2: R_epi=0.050 epi=   22.6 ale=  105.1 MAE=  89.5 | PICP90 tot=0.881 ale-only=0.871 | out-of-support: epi out/in=1.63 ale out/in=1.18 rho(epi,excess)=+0.28 PICP90 tot/ale=0.858/0.839
+    ENS: R_epi=0.117 epi=   35.4 ale=  105.3 MAE=  86.4 | PICP90 tot=0.910 ale-only=0.882 | out-of-support: epi out/in=1.59 ale out/in=1.17 rho(epi,excess)=+0.35 PICP90 tot/ale=0.891/0.842
+DONE

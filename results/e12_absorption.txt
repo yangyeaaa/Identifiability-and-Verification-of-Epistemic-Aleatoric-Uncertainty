@@ -1,0 +1,11 @@
+gef   uniform 5%      E[v]/E[s*^2]=  8.02  E[v]/E[s*^2+e^2]= 0.76  rho(v,s*^2)=+0.29  rho(v,s*^2+e^2)=+0.42
+gef   uniform 25%     E[v]/E[s*^2]=  1.78  E[v]/E[s*^2+e^2]= 1.10  rho(v,s*^2)=+0.75  rho(v,s*^2+e^2)=+0.62
+gef   uniform 100%    E[v]/E[s*^2]=  1.37  E[v]/E[s*^2+e^2]= 1.17  rho(v,s*^2)=+0.90  rho(v,s*^2+e^2)=+0.85
+gef   recent 1 month  E[v]/E[s*^2]= 23.02  E[v]/E[s*^2+e^2]= 0.97  rho(v,s*^2)=-0.41  rho(v,s*^2+e^2)=+0.18
+gef   recent 1 month (window) E[v]/E[s*^2]= 19.23  E[v]/E[s*^2+e^2]= 0.53  rho(v,s*^2)=-0.40  rho(v,s*^2+e^2)=+0.27
+covid uniform 5%      E[v]/E[s*^2]=  4.09  E[v]/E[s*^2+e^2]= 0.52  rho(v,s*^2)=+0.18  rho(v,s*^2+e^2)=+0.41
+covid uniform 25%     E[v]/E[s*^2]=  1.23  E[v]/E[s*^2+e^2]= 1.01  rho(v,s*^2)=+0.78  rho(v,s*^2+e^2)=+0.77
+covid uniform 100%    E[v]/E[s*^2]=  1.16  E[v]/E[s*^2+e^2]= 1.10  rho(v,s*^2)=+0.92  rho(v,s*^2+e^2)=+0.88
+covid recent 1 month  E[v]/E[s*^2]= 22.65  E[v]/E[s*^2+e^2]= 2.94  rho(v,s*^2)=-0.02  rho(v,s*^2+e^2)=-0.09
+covid recent 1 month (window) E[v]/E[s*^2]=  5.60  E[v]/E[s*^2+e^2]= 0.28  rho(v,s*^2)=-0.08  rho(v,s*^2+e^2)=+0.11
+DONE

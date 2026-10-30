@@ -1,0 +1,9 @@
+gef   MVE  : up99 raw=0.985 cal=0.989 (peak raw=0.968 cal=0.972) | up99.5 cal=0.993 peak=0.979 | cost(cu=20): fixed=247.4 tot=233.9 ale-only=233.9 (+5.5% vs fixed)
+gef   MC   : up99 raw=0.994 cal=0.989 (peak raw=0.979 cal=0.970) | up99.5 cal=0.994 peak=0.980 | cost(cu=20): fixed=268.2 tot=239.9 ale-only=239.7 (+10.6% vs fixed)
+gef   ENS  : up99 raw=0.989 cal=0.989 (peak raw=0.970 cal=0.969) | up99.5 cal=0.994 peak=0.977 | cost(cu=20): fixed=239.5 tot=223.2 ale-only=223.4 (+6.8% vs fixed)
+gef   LA-2 : up99 raw=0.986 cal=0.989 (peak raw=0.969 cal=0.972) | up99.5 cal=0.993 peak=0.981 | cost(cu=20): fixed=247.4 tot=233.3 ale-only=233.9 (+5.7% vs fixed)
+covid MVE  : up99 raw=0.986 cal=0.989 (peak raw=0.944 cal=0.955) | up99.5 cal=0.993 peak=0.968 | cost(cu=20): fixed=66117.9 tot=60466.6 ale-only=60466.6 (+8.5% vs fixed)
+covid MC   : up99 raw=0.999 cal=0.989 (peak raw=0.991 cal=0.945) | up99.5 cal=0.994 peak=0.966 | cost(cu=20): fixed=66335.1 tot=62722.2 ale-only=61846.5 (+5.4% vs fixed)
+covid ENS  : up99 raw=0.993 cal=0.988 (peak raw=0.966 cal=0.954) | up99.5 cal=0.994 peak=0.968 | cost(cu=20): fixed=63760.2 tot=58512.7 ale-only=58393.3 (+8.2% vs fixed)
+covid LA-2 : up99 raw=0.988 cal=0.989 (peak raw=0.949 cal=0.958) | up99.5 cal=0.993 peak=0.970 | cost(cu=20): fixed=66117.9 tot=60408.9 ale-only=60466.6 (+8.6% vs fixed)
+DONE

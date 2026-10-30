@@ -1,0 +1,272 @@
+[
+ {
+  "dataset": "gef",
+  "cond": "uniform 5%",
+  "seed": 0,
+  "lvl_noise": 6.957428455352783,
+  "lvl_total": 0.6148210167884827,
+  "rho_noise": 0.32099264052507237,
+  "rho_total": 0.43521072117021664
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 5%",
+  "seed": 1,
+  "lvl_noise": 8.022313117980957,
+  "lvl_total": 0.7562791705131531,
+  "rho_noise": 0.309458423038233,
+  "rho_total": 0.4326792531350074
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 5%",
+  "seed": 2,
+  "lvl_noise": 9.070984840393066,
+  "lvl_total": 0.9112610816955566,
+  "rho_noise": 0.252025918787727,
+  "rho_total": 0.3987873761064325
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 25%",
+  "seed": 0,
+  "lvl_noise": 1.8789142370224,
+  "lvl_total": 1.0877714157104492,
+  "rho_noise": 0.7501935137231294,
+  "rho_total": 0.6266892529448748
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 25%",
+  "seed": 1,
+  "lvl_noise": 1.7394219636917114,
+  "lvl_total": 1.1129629611968994,
+  "rho_noise": 0.7647302149379664,
+  "rho_total": 0.6353236579918031
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 25%",
+  "seed": 2,
+  "lvl_noise": 1.7241674661636353,
+  "lvl_total": 1.1100144386291504,
+  "rho_noise": 0.7388303647018918,
+  "rho_total": 0.6129291237669715
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 100%",
+  "seed": 0,
+  "lvl_noise": 1.3241747617721558,
+  "lvl_total": 1.1285358667373657,
+  "rho_noise": 0.8877599519133326,
+  "rho_total": 0.8235790590979357
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 100%",
+  "seed": 1,
+  "lvl_noise": 1.4382578134536743,
+  "lvl_total": 1.2368366718292236,
+  "rho_noise": 0.8966711474551058,
+  "rho_total": 0.8543192696515394
+ },
+ {
+  "dataset": "gef",
+  "cond": "uniform 100%",
+  "seed": 2,
+  "lvl_noise": 1.3446487188339233,
+  "lvl_total": 1.145923137664795,
+  "rho_noise": 0.9030290568267242,
+  "rho_total": 0.8592160854438362
+ },
+ {
+  "dataset": "gef",
+  "cond": "recent 1 month",
+  "seed": 0,
+  "lvl_noise": 25.03112030029297,
+  "lvl_total": 0.9379826188087463,
+  "rho_noise": -0.44485637607303125,
+  "rho_total": 0.1302776120606101
+ },
+ {
+  "dataset": "gef",
+  "cond": "recent 1 month",
+  "seed": 1,
+  "lvl_noise": 19.900651931762695,
+  "lvl_total": 0.8622240424156189,
+  "rho_noise": -0.3281758315450481,
+  "rho_total": 0.17685610316591371
+ },
+ {
+  "dataset": "gef",
+  "cond": "recent 1 month",
+  "seed": 2,
+  "lvl_noise": 24.128864288330078,
+  "lvl_total": 1.11250638961792,
+  "rho_noise": -0.46665630497246385,
+  "rho_total": 0.23077851235362673
+ },
+ {
+  "dataset": "gef",
+  "cond": "recent 1 month (window)",
+  "seed": 0,
+  "lvl_noise": 16.524171829223633,
+  "lvl_total": 0.31761807203292847,
+  "rho_noise": -0.40427645186936145,
+  "rho_total": 0.32789582131161654
+ },
+ {
+  "dataset": "gef",
+  "cond": "recent 1 month (window)",
+  "seed": 1,
+  "lvl_noise": 15.815495491027832,
+  "lvl_total": 0.48096582293510437,
+  "rho_noise": -0.3615496474955413,
+  "rho_total": 0.18083830599255774
+ },
+ {
+  "dataset": "gef",
+  "cond": "recent 1 month (window)",
+  "seed": 2,
+  "lvl_noise": 25.35618782043457,
+  "lvl_total": 0.8018487095832825,
+  "rho_noise": -0.43572723221287046,
+  "rho_total": 0.30367764339830255
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 5%",
+  "seed": 0,
+  "lvl_noise": 4.1622633934021,
+  "lvl_total": 0.4522475600242615,
+  "rho_noise": 0.16720210643995223,
+  "rho_total": 0.5050326439731156
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 5%",
+  "seed": 1,
+  "lvl_noise": 3.7970969676971436,
+  "lvl_total": 0.48572584986686707,
+  "rho_noise": 0.16031514789823917,
+  "rho_total": 0.46229766127703337
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 5%",
+  "seed": 2,
+  "lvl_noise": 4.297844409942627,
+  "lvl_total": 0.6367192268371582,
+  "rho_noise": 0.21393501986179286,
+  "rho_total": 0.2636872595015217
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 25%",
+  "seed": 0,
+  "lvl_noise": 1.217388391494751,
+  "lvl_total": 1.0284838676452637,
+  "rho_noise": 0.8509862723926407,
+  "rho_total": 0.8169169562259706
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 25%",
+  "seed": 1,
+  "lvl_noise": 1.1809533834457397,
+  "lvl_total": 0.9457151889801025,
+  "rho_noise": 0.7358908737985665,
+  "rho_total": 0.6963979631046643
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 25%",
+  "seed": 2,
+  "lvl_noise": 1.3037283420562744,
+  "lvl_total": 1.0635682344436646,
+  "rho_noise": 0.7403614615982008,
+  "rho_total": 0.7967689333266635
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 100%",
+  "seed": 0,
+  "lvl_noise": 1.0944987535476685,
+  "lvl_total": 1.0320929288864136,
+  "rho_noise": 0.9135748820099637,
+  "rho_total": 0.8758127617020144
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 100%",
+  "seed": 1,
+  "lvl_noise": 1.1961591243743896,
+  "lvl_total": 1.1273057460784912,
+  "rho_noise": 0.9133030943603682,
+  "rho_total": 0.8780497870233358
+ },
+ {
+  "dataset": "covid",
+  "cond": "uniform 100%",
+  "seed": 2,
+  "lvl_noise": 1.1868207454681396,
+  "lvl_total": 1.1262750625610352,
+  "rho_noise": 0.9204259540827923,
+  "rho_total": 0.8857877233667037
+ },
+ {
+  "dataset": "covid",
+  "cond": "recent 1 month",
+  "seed": 0,
+  "lvl_noise": 24.14596176147461,
+  "lvl_total": 2.562131881713867,
+  "rho_noise": -0.013016059105031796,
+  "rho_total": -0.33345912982414216
+ },
+ {
+  "dataset": "covid",
+  "cond": "recent 1 month",
+  "seed": 1,
+  "lvl_noise": 19.8248233795166,
+  "lvl_total": 2.9696969985961914,
+  "rho_noise": -0.044440399761077866,
+  "rho_total": 0.06451664164196927
+ },
+ {
+  "dataset": "covid",
+  "cond": "recent 1 month",
+  "seed": 2,
+  "lvl_noise": 23.98000717163086,
+  "lvl_total": 3.2766709327697754,
+  "rho_noise": -0.0009529025392913992,
+  "rho_total": 0.002195166129738902
+ },
+ {
+  "dataset": "covid",
+  "cond": "recent 1 month (window)",
+  "seed": 0,
+  "lvl_noise": 5.979401588439941,
+  "lvl_total": 0.1267988532781601,
+  "rho_noise": -0.0161536863525911,
+  "rho_total": 0.33453723826822673
+ },
+ {
+  "dataset": "covid",
+  "cond": "recent 1 month (window)",
+  "seed": 1,
+  "lvl_noise": 7.515661716461182,
+  "lvl_total": 0.50433349609375,
+  "rho_noise": -0.14009147133298708,
+  "rho_total": -0.1411579320793346
+ },
+ {
+  "dataset": "covid",
+  "cond": "recent 1 month (window)",
+  "seed": 2,
+  "lvl_noise": 3.2970223426818848,
+  "lvl_total": 0.19412599503993988,
+  "rho_noise": -0.07013290266334475,
+  "rho_total": 0.12203314027499906
+ }
+]

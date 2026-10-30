@@ -1,0 +1,22 @@
+p=0.02 s=0: val CRPS MVE=67.56 MC=66.30 | test R_epi MC=0.179 LA-1=0.0066 LA-2=0.065
+p=0.02 s=1: val CRPS MVE=66.60 MC=66.13 | test R_epi MC=0.136 LA-1=0.0059 LA-2=0.047
+p=0.02 s=2: val CRPS MVE=67.66 MC=67.18 | test R_epi MC=0.146 LA-1=0.0055 LA-2=0.044
+p=0.05 s=0: val CRPS MVE=65.07 MC=65.34 | test R_epi MC=0.161 LA-1=0.0061 LA-2=0.045
+p=0.05 s=1: val CRPS MVE=65.43 MC=65.39 | test R_epi MC=0.189 LA-1=0.0060 LA-2=0.046
+p=0.05 s=2: val CRPS MVE=64.95 MC=65.29 | test R_epi MC=0.163 LA-1=0.0057 LA-2=0.042
+p=0.10 s=0: val CRPS MVE=64.58 MC=64.78 | test R_epi MC=0.208 LA-1=0.0063 LA-2=0.046
+p=0.10 s=1: val CRPS MVE=64.21 MC=65.55 | test R_epi MC=0.193 LA-1=0.0060 LA-2=0.042
+p=0.10 s=2: val CRPS MVE=65.05 MC=64.80 | test R_epi MC=0.213 LA-1=0.0061 LA-2=0.045
+p=0.20 s=0: val CRPS MVE=63.92 MC=65.66 | test R_epi MC=0.222 LA-1=0.0055 LA-2=0.035
+p=0.20 s=1: val CRPS MVE=63.49 MC=65.99 | test R_epi MC=0.224 LA-1=0.0052 LA-2=0.031
+p=0.20 s=2: val CRPS MVE=64.45 MC=66.53 | test R_epi MC=0.211 LA-1=0.0054 LA-2=0.034
+p=0.30 s=0: val CRPS MVE=64.06 MC=69.32 | test R_epi MC=0.232 LA-1=0.0051 LA-2=0.028
+p=0.30 s=1: val CRPS MVE=64.08 MC=72.30 | test R_epi MC=0.205 LA-1=0.0046 LA-2=0.025
+p=0.30 s=2: val CRPS MVE=65.26 MC=69.38 | test R_epi MC=0.228 LA-1=0.0049 LA-2=0.027
+p=0.02: val CRPS(MVE)=67.27±0.59 | R_epi MC=0.154 LA-1=0.0060 LA-2=0.052
+p=0.05: val CRPS(MVE)=65.15±0.25 | R_epi MC=0.171 LA-1=0.0059 LA-2=0.044
+p=0.10: val CRPS(MVE)=64.62±0.42 | R_epi MC=0.205 LA-1=0.0061 LA-2=0.044
+p=0.20: val CRPS(MVE)=63.95±0.48 | R_epi MC=0.219 LA-1=0.0054 LA-2=0.033
+p=0.30: val CRPS(MVE)=64.47±0.69 | R_epi MC=0.222 LA-1=0.0048 LA-2=0.027
+selected p (lowest mean validation CRPS of the deterministic network) = 0.2
+DONE

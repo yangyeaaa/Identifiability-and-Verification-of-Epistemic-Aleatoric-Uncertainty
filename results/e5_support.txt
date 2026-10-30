@@ -1,0 +1,11 @@
+  gef    MC: rho(epi,d)=+0.20±0.01 rho(epi,|x|)=+0.70 within=+0.22±0.01 partial=-0.17±0.02 far/near=1.25 | seed-0 CI rho [+0.13,+0.28] partial [-0.24,-0.08]
+  gef  LA-1: rho(epi,d)=+0.44±0.02 rho(epi,|x|)=+0.57 within=+0.37±0.03 partial=+0.25±0.02 far/near=1.53 | seed-0 CI rho [+0.33,+0.51] partial [+0.14,+0.34]
+  gef  LA-2: rho(epi,d)=+0.56±0.03 rho(epi,|x|)=+0.45 within=+0.47±0.03 partial=+0.45±0.04 far/near=1.94 | seed-0 CI rho [+0.45,+0.63] partial [+0.35,+0.52]
+  gef   ENS: rho(epi,d)=+0.30±0.03 rho(epi,|x|)=+0.35 within=+0.22±0.03 partial=+0.17±0.04 far/near=1.70 | seed-0 CI rho [+0.27,+0.40] partial [+0.13,+0.27]
+  gef  FREE: rho(epi,d)=+0.18±0.05 rho(epi,|x|)=+0.26 within=+0.01±0.04 partial=+0.08±0.06 far/near=1.26 | seed-0 CI rho [+0.09,+0.31] partial [+0.00,+0.25]
+covid    MC: rho(epi,d)=-0.04±0.04 rho(epi,|x|)=+0.42 within=+0.11±0.02 partial=-0.18±0.06 far/near=1.01 | seed-0 CI rho [-0.11,+0.02] partial [-0.24,-0.08]
+covid  LA-1: rho(epi,d)=+0.35±0.03 rho(epi,|x|)=-0.02 within=+0.28±0.03 partial=+0.37±0.04 far/near=1.27 | seed-0 CI rho [+0.27,+0.46] partial [+0.30,+0.47]
+covid  LA-2: rho(epi,d)=+0.45±0.04 rho(epi,|x|)=-0.14 within=+0.33±0.04 partial=+0.51±0.05 far/near=1.58 | seed-0 CI rho [+0.35,+0.51] partial [+0.42,+0.56]
+covid   ENS: rho(epi,d)=+0.20±0.12 rho(epi,|x|)=+0.05 within=+0.14±0.04 partial=+0.19±0.17 far/near=1.38 | seed-0 CI rho [+0.12,+0.24] partial [+0.10,+0.22]
+covid  FREE: rho(epi,d)=+0.28±0.03 rho(epi,|x|)=-0.11 within=+0.14±0.03 partial=+0.33±0.05 far/near=1.27 | seed-0 CI rho [+0.19,+0.36] partial [+0.24,+0.39]
+DONE

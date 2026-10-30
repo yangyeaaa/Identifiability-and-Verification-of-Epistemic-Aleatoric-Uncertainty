@@ -1,0 +1,37 @@
+
+=== real recent 1 month (n_train=576, epochs of base nets [36, 16, 20], out-of-support 82%) ===
+     MC: R_epi=0.173 epi=  115.3 ale=  332.7 MAE= 631.6 out/in=1.08 dcov_out=+2.4
+   LA-1: R_epi=0.085 epi=   80.0 ale=  320.7 MAE= 701.6 out/in=1.17 dcov_out=+0.9
+   LA-2: R_epi=0.481 epi=  306.4 ale=  320.7 MAE= 701.6 out/in=1.29 dcov_out=+13.6
+    ENS: R_epi=0.121 epi=  154.7 ale=  450.3 MAE= 528.1 out/in=1.77 dcov_out=+3.7
+
+=== real recent 2 months (n_train=1152, epochs of base nets [22, 24, 28], out-of-support 57%) ===
+     MC: R_epi=0.271 epi=  120.7 ale=  210.4 MAE= 777.4 out/in=1.14 dcov_out=+2.4
+   LA-1: R_epi=0.106 epi=   56.1 ale=  189.9 MAE= 857.1 out/in=1.22 dcov_out=+0.5
+   LA-2: R_epi=0.501 epi=  203.3 ale=  189.9 MAE= 857.1 out/in=1.32 dcov_out=+5.6
+    ENS: R_epi=0.378 epi=  200.3 ale=  253.2 MAE= 757.1 out/in=1.29 dcov_out=+8.2
+
+=== real recent 3 months (n_train=1728, epochs of base nets [14, 13, 30], out-of-support 43%) ===
+     MC: R_epi=0.093 epi=   90.8 ale=  365.8 MAE= 527.7 out/in=1.03 dcov_out=+1.8
+   LA-1: R_epi=0.028 epi=   50.5 ale=  355.4 MAE= 574.7 out/in=1.22 dcov_out=+0.3
+   LA-2: R_epi=0.216 epi=  164.4 ale=  355.4 MAE= 574.7 out/in=1.35 dcov_out=+5.0
+    ENS: R_epi=0.131 epi=  120.3 ale=  326.2 MAE= 597.0 out/in=1.02 dcov_out=+3.8
+
+=== semi-synthetic gef, recent 1 month, in-window validation (epochs [17, 17, 16, 17, 16, 17]) ===
+       NLL FREE: true R=0.98 reported=0.154 ratio=  14.08 cov90=0.35 rho=+0.46 ale ratio= 23.61 ale rho=-0.30 base=0.89 recall=0.00 BA=0.50 RMSE=810.9
+       NLL   MC: true R=0.97 reported=0.044 ratio=  41.24 cov90=0.18 rho=+0.24 ale ratio= 19.04 ale rho=-0.41 base=0.87 recall=0.00 BA=0.50 RMSE=614.2
+       NLL  ENS: true R=0.97 reported=0.109 ratio=  15.63 cov90=0.24 rho=+0.07 ale ratio= 18.55 ale rho=-0.38 base=0.89 recall=0.00 BA=0.50 RMSE=646.0
+       NLL LA-1: true R=0.97 reported=0.041 ratio=  48.07 cov90=0.15 rho=+0.42 ale ratio= 19.23 ale rho=-0.40 base=0.88 recall=0.00 BA=0.50 RMSE=663.7
+       NLL LA-2: true R=0.97 reported=0.386 ratio=   3.29 cov90=0.58 rho=+0.45 ale ratio= 19.23 ale rho=-0.40 base=0.88 recall=0.14 BA=0.55 RMSE=663.7
+  beta-NLL   MC: true R=0.97 reported=0.055 ratio=  38.19 cov90=0.19 rho=+0.30 ale ratio= 16.76 ale rho=-0.39 base=0.88 recall=0.00 BA=0.50 RMSE=646.5
+  beta-NLL LA-2: true R=0.98 reported=0.423 ratio=   3.57 cov90=0.56 rho=+0.50 ale ratio= 16.62 ale rho=-0.38 base=0.88 recall=0.23 BA=0.58 RMSE=705.4
+
+=== semi-synthetic covid, recent 1 month, in-window validation (epochs [50, 50, 50, 50, 49, 50]) ===
+       NLL FREE: true R=0.93 reported=0.134 ratio=  10.13 cov90=0.47 rho=+0.16 ale ratio= 20.16 ale rho=-0.14 base=0.83 recall=0.00 BA=0.47 RMSE=114908.5
+       NLL   MC: true R=0.91 reported=0.121 ratio=  17.64 cov90=0.33 rho=+0.16 ale ratio=  7.96 ale rho=-0.09 base=0.82 recall=0.00 BA=0.50 RMSE=105384.2
+       NLL  ENS: true R=0.95 reported=0.342 ratio=   7.81 cov90=0.22 rho=+0.44 ale ratio=  4.89 ale rho=+0.07 base=0.96 recall=0.09 BA=0.54 RMSE=125160.9
+       NLL LA-1: true R=0.95 reported=0.129 ratio=  32.77 cov90=0.16 rho=+0.07 ale ratio=  5.60 ale rho=-0.08 base=0.90 recall=0.00 BA=0.50 RMSE=136088.4
+       NLL LA-2: true R=0.95 reported=0.760 ratio=   1.51 cov90=0.80 rho=+0.13 ale ratio=  5.60 ale rho=-0.08 base=0.90 recall=0.99 BA=0.62 RMSE=136088.4
+  beta-NLL   MC: true R=0.91 reported=0.129 ratio=  15.74 cov90=0.33 rho=+0.19 ale ratio=  8.41 ale rho=-0.09 base=0.84 recall=0.00 BA=0.50 RMSE=105032.6
+  beta-NLL LA-2: true R=0.94 reported=0.762 ratio=   1.44 cov90=0.81 rho=+0.09 ale ratio=  6.17 ale rho=-0.08 base=0.87 recall=0.99 BA=0.61 RMSE=129317.8
+DONE

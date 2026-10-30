@@ -1,0 +1,35 @@
+truth: RMS sigma* (test) = 28116.6; sd f* (test) = 77892.4 (data units)
+
+=== uniform 5% (n_train=428; test inputs outside training temperature range 0%) ===
+   LA-1: true R=0.87 reported R=0.030 | ratio E[e2]/E[s2]=  54.23 cov90(f*)=0.13 rho=+0.25 | ale ratio=4.09 rho=+0.18 | action agree=0.23 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 77%)
+   LA-2: true R=0.87 reported R=0.131 | ratio E[e2]/E[s2]=  10.43 cov90(f*)=0.29 rho=+0.25 | ale ratio=4.09 rho=+0.18 | action agree=0.23 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 77%)
+     MC: true R=0.89 reported R=0.150 | ratio E[e2]/E[s2]=   9.06 cov90(f*)=0.28 rho=+0.24 | ale ratio=4.94 rho=+0.18 | action agree=0.17 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 83%)
+    ENS: true R=0.86 reported R=0.093 | ratio E[e2]/E[s2]=  11.18 cov90(f*)=0.25 rho=+0.24 | ale ratio=4.03 rho=+0.14 | action agree=0.25 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 75%)
+   FREE: true R=0.87 reported R=0.383 | ratio E[e2]/E[s2]=   7.03 cov90(f*)=0.45 rho=+0.36 | ale ratio=2.41 rho=+0.20 | action agree=0.43 epi-dominant hours labelled aleatoric=0.67 (truly epi-dominant 78%)
+
+=== uniform 25% (n_train=2142; test inputs outside training temperature range 0%) ===
+   LA-1: true R=0.18 reported R=0.014 | ratio E[e2]/E[s2]=  12.61 cov90(f*)=0.38 rho=+0.29 | ale ratio=1.23 rho=+0.78 | action agree=0.95 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 5%)
+   LA-2: true R=0.18 reported R=0.065 | ratio E[e2]/E[s2]=   2.42 cov90(f*)=0.71 rho=+0.29 | ale ratio=1.23 rho=+0.78 | action agree=0.95 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 5%)
+     MC: true R=0.32 reported R=0.155 | ratio E[e2]/E[s2]=   1.49 cov90(f*)=0.84 rho=+0.44 | ale ratio=1.73 rho=+0.73 | action agree=0.82 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 18%)
+    ENS: true R=0.12 reported R=0.040 | ratio E[e2]/E[s2]=   2.15 cov90(f*)=0.72 rho=+0.22 | ale ratio=1.36 rho=+0.83 | action agree=0.99 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 1%)
+   FREE: true R=0.17 reported R=0.614 | ratio E[e2]/E[s2]=   2.74 cov90(f*)=0.84 rho=+0.32 | ale ratio=0.44 rho=+0.74 | action agree=0.35 epi-dominant hours labelled aleatoric=0.33 (truly epi-dominant 3%)
+
+=== uniform 100% (n_train=8568; test inputs outside training temperature range 0%) ===
+   LA-1: true R=0.06 reported R=0.005 | ratio E[e2]/E[s2]=  10.80 cov90(f*)=0.38 rho=+0.12 | ale ratio=1.16 rho=+0.92 | action agree=1.00 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 0%)
+   LA-2: true R=0.06 reported R=0.023 | ratio E[e2]/E[s2]=   2.16 cov90(f*)=0.71 rho=+0.15 | ale ratio=1.16 rho=+0.92 | action agree=1.00 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 0%)
+     MC: true R=0.14 reported R=0.128 | ratio E[e2]/E[s2]=   0.74 cov90(f*)=0.96 rho=+0.44 | ale ratio=1.50 rho=+0.89 | action agree=0.99 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 1%)
+    ENS: true R=0.04 reported R=0.015 | ratio E[e2]/E[s2]=   1.91 cov90(f*)=0.68 rho=+0.20 | ale ratio=1.13 rho=+0.94 | action agree=1.00 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 0%)
+   FREE: true R=0.05 reported R=0.660 | ratio E[e2]/E[s2]=   4.06 cov90(f*)=0.78 rho=+0.18 | ale ratio=0.41 rho=+0.90 | action agree=0.33 epi-dominant hours labelled aleatoric=0.33 (truly epi-dominant 0%)
+
+=== recent 1 month (n_train=720; test inputs outside training temperature range 14%) ===
+   LA-1: true R=0.87 reported R=0.046 | ratio E[e2]/E[s2]=   6.63 cov90(f*)=0.47 rho=-0.12 | ale ratio=22.65 rho=-0.02 | action agree=0.27 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 73%)
+         out-of-support: ratio=   8.34 cov90=0.39 ale ratio=19.17
+   LA-2: true R=0.87 reported R=0.412 | ratio E[e2]/E[s2]=   0.37 cov90(f*)=0.94 rho=-0.10 | ale ratio=22.65 rho=-0.02 | action agree=0.40 epi-dominant hours labelled aleatoric=0.67 (truly epi-dominant 73%)
+         out-of-support: ratio=   0.46 cov90=0.85 ale ratio=19.17
+     MC: true R=0.86 reported R=0.009 | ratio E[e2]/E[s2]=  35.99 cov90(f*)=0.21 rho=-0.03 | ale ratio=22.57 rho=-0.01 | action agree=0.26 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 74%)
+         out-of-support: ratio=  42.05 cov90=0.20 ale ratio=19.12
+    ENS: true R=0.85 reported R=0.009 | ratio E[e2]/E[s2]=  29.66 cov90(f*)=0.18 rho=+0.03 | ale ratio=22.36 rho=+0.06 | action agree=0.24 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 76%)
+         out-of-support: ratio=  58.79 cov90=0.16 ale ratio=18.89
+   FREE: true R=0.87 reported R=0.116 | ratio E[e2]/E[s2]=   1.06 cov90(f*)=0.88 rho=+0.02 | ale ratio=50.10 rho=-0.10 | action agree=0.26 epi-dominant hours labelled aleatoric=1.00 (truly epi-dominant 74%)
+         out-of-support: ratio=   1.40 cov90=0.82 ale ratio=43.30
+DONE
